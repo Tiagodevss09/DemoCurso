@@ -42,15 +42,15 @@ jobs:
     
     - name: Build ASP.NET 10 App
       run: dotnet build DemoCurso.sln --configuration Release --no-restore
-      working-directory: DemoCurso/DemoCurso
+      working-directory: DemoCurso
     
     - name: Test ASP.NET 10 App
       run: dotnet test DemoCurso.sln --configuration Release --no-build --logger "console;verbosity=detailed"  
-      working-directory: DemoCurso/DemoCurso
+      working-directory: DemoCurso
     
     - name: Docker Compose Build
       run: docker compose build
-      working-directory: DemoCurso/DemoCurso
+      working-directory: DemoCurso
     
     - name: Push to Docker Hub Container Registry
       run: |
