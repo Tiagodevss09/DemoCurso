@@ -1,0 +1,35 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ASP.NET / local settings
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
