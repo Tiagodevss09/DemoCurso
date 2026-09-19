@@ -38,7 +38,7 @@ jobs:
     
     - name: Restore Dependencies
       run: dotnet restore DemoCurso.sln
-      working-directory: DemoCurso/DemoCurso
+      working-directory: DemoCurso
     
     - name: Build ASP.NET 10 App
       run: dotnet build DemoCurso.sln --configuration Release --no-restore
