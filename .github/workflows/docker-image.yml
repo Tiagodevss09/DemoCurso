@@ -71,3 +71,4 @@ jobs:
           docker tag ${{ secrets.IMAGE_NAME }}:latest ${{ secrets.AZURE_CONTAINER_REGISTRY }}/democurso:latest
           docker push ${{ secrets.AZURE_CONTAINER_REGISTRY }}/democurso:latest
 
+
